@@ -2,7 +2,14 @@
 
 
 def is_prime(value: int) -> bool:
-    """Retorna True se value for um numero primo, caso contrario False."""
+    """Verifica se um número inteiro é primo.
+
+    Args:
+        value (int): Número inteiro a ser verificado.
+
+    Returns:
+        bool: True se o número for primo, caso contrário False.
+    """
     if not isinstance(value, int):
         return False
 
